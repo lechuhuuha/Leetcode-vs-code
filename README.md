@@ -1,8 +1,8 @@
 # Leetcode-vs-code
-Access leet code through vs code step by step
 
-This guide is mainly for people can not login leetcode in vs in this repo https://github.com/LeetCode-OpenSource/vscode-leetcode
+Access LeetCode through VS Code step by step.
 
+This guide is primarily for individuals who are unable to log in to LeetCode within VS Code using the repository https://github.com/LeetCode-OpenSource/vscode-leetcode.
 
 If you encoutner the error after running the command 
 
@@ -20,7 +20,11 @@ login: (node:5080) Warning: Accessing non-existent property 'padLevels' of modul
 3. After install the extension in vscode you log into leetcode.com in a browser. 
   In Chrome, right click and select "Inspect". Switch to tab "Network", "XHR". 
   Then click any button on leetcode.com(now should be on the left split screen). 
-  Now you should be able to see the cookie as @yihong0618 showed in the pic. 
+  Now you should be able to see the cookie as showed in the pic. 
+  
+  ![image](https://github.com/lechuhuuha/Leetcode-vs-code/assets/59781669/7ce5467a-bce7-4a80-8e10-c6cf4554b5d5)
+
+  
   Copy the two cookie csrf and  LEETCODE_SESSION
   Like this example
   csrftoken="your-csrk-token"; LEETCODE_SESSION="you-leetcode-session";
